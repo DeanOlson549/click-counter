@@ -1,0 +1,68 @@
+body {
+    background-color: beige;
+}
+address {
+    font-size: 12px;
+}
+nav {
+    background-color: rgb(151, 151, 85);
+}
+
+.navLinks {
+    display: flex;
+}
+
+.navLink {
+    list-style-type: none;
+    width: 50px;
+    padding: 15px;
+}
+
+.parent {
+    background-color: rgb(241, 201, 175);
+    margin: 10px;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;     /*flex-direction flex-wrap */
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.item {
+    background-color: rgb(189, 137, 102);
+}
+.div1 {
+    margin: 5px;
+}
+.div2 {
+    margin: 5px;
+    width: 150px;
+    font-size: 30px;
+}
+.div3 {
+    margin: 5px;
+    height: 150px;
+}
+.div4 {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+.div5 {
+    margin: 5px;
+    width: 200px;
+}
+.div6 {
+    margin: 5px;
+    width: 200px;
+}
+
+form {
+    padding: 30px;
+    width: 300px;
+    background-color: rgb(202, 209, 142);
+}
+
+form > div {
+    margin: 20px;
+}
